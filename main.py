@@ -11,7 +11,7 @@ class Downloader:
 
     def mainMenu():
         menu = input('1 - Ввести ссылку и скачать трек\n'
-                     '2 - Пиздануть всё нахуй:\n')
+                     '2 - Деинсталлировать библеотеки Selenium и Webdriver_manager:\n')
         if menu == '1':
             Downloader.loadFile()
         elif menu == '2':
